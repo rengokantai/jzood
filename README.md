@@ -35,6 +35,8 @@ Board:
 
 Player
 - Name
+- Points
+- updatePoints(int diff)  
 
 Chinese Chess
 - List<Game> games  
@@ -45,7 +47,10 @@ Game
 - Piece[][] board
 - void joinGame(Player p)
 - void initializaBoard()
-- boolean move(Piece piece, int row,int col)  
+- boolean move(Piece piece, int row,int col) 
+- void changePlayer()
+- boolean ifCurrentPlayerWin()
+- void gameDraw()
   
   
 Piece  
