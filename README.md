@@ -77,18 +77,28 @@ Deck
 - Dealer dealer
 - List<player> players
 - void addPlayer(Player p)
+- void shuffle()
+- void dealInitialCards()
+- Card dealNextCard()
 
 Hand
 - List<Card> cards
+- void insertCard(Card c)
 
 Player
 - Hand hand
 - int totalBets
 - int currentBets
+- Deck d
 - void joinGame(Deck d)
 - void placeBets(int amount)  
+- void insertCard(Card c)
+- void dealNextCard()
 
 Dealer
 - Hand hand  
+- Deck d
+- void insertCard(Card c)
+- void dealNextCard()
 
 Card
