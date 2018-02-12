@@ -68,3 +68,27 @@ Piece
 
 #### Use case:
 - Initialization
+
+### 3. Blackjack
+Note, all other types of OOD except blackjack relys on the entity except card game, which relys on designing most propertys and methods
+on player.  
+
+Deck
+- Dealer dealer
+- List<player> players
+- void addPlayer(Player p)
+
+Hand
+- List<Card> cards
+
+Player
+- Hand hand
+- int totalBets
+- int currentBets
+- void joinGame(Deck d)
+- void placeBets(int amount)  
+
+Dealer
+- Hand hand  
+
+Card
