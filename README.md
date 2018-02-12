@@ -137,3 +137,18 @@ public class ParkingLot
   }
 }
 ```
+
+Static internal
+```
+public class ParkingLot
+{
+  private ParkingLot(){}
+  private static class LazyParkingLot{
+    static final ParkingLot _instance = new ParkingLot();
+  }
+  public static ParkingLot getInstance()
+  {
+    return LazyParkingLot._instance;
+  }
+}
+```
