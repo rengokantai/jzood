@@ -109,3 +109,31 @@ Dealer
 
 Card
 - int value
+
+Design pattern:
+- Sing
+- Stragegy
+- DAO
+- Adapter
+- State
+- Decorator
+- Factory
+
+Three types of singleton:  
+BASIC
+```
+public class ParkingLot
+{
+  private static ParkingLot _instance = null;
+  private List<Level> levels;
+  private ParkingLot(){
+    levels = new ArrayList<level>();
+  }
+  public static ParkingLot getInstance(){
+    if(_instance==null){
+      _instance = new ParkingLot();
+    }
+    return _instance;
+  }
+}
+```
