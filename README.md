@@ -37,20 +37,25 @@ Player
 - Name
 
 Chinese Chess
-- List<Game> games
-Game
+- List<Game> games  
+  
+Game  
 - Player redPlayer
 - Player blackPlayer
 - Piece[][] board
 - void joinGame(Player p)
 - void initializaBoard()
-- boolean move(Piece piece, int row,int col)
-Piece
+- boolean move(Piece piece, int row,int col)  
+  
+  
+Piece  
 - Color color
-- Role role
+- Role role  
+
 <Enum> Color
 - Black
-- Red
+- Red  
+  
 <Enum> Role
 - ROOK
 - OTHER
