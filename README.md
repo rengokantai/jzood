@@ -34,7 +34,7 @@ Board:
 ### 2 Chinese.  
 
 Player
--
+- Name
 
 Chinese Chess
 - List<Game> games
@@ -43,6 +43,8 @@ Game
 - Player blackPlayer
 - Piece[][] board
 - void joinGame(Player p)
+- void initializaBoard()
+- boolean move(Piece piece, int row,int col)
 Piece
 - Color color
 - Role role
