@@ -90,15 +90,22 @@ Player
 - int totalBets
 - int currentBets
 - Deck d
+- Boolean stopDealing
 - void joinGame(Deck d)
 - void placeBets(int amount)  
 - void insertCard(Card c)
 - void dealNextCard()
+- void stopDealing()  
+- void updateBets(int amount)
 
 Dealer
 - Hand hand  
 - Deck d
+- int bets
 - void insertCard(Card c)
 - void dealNextCard()
+- booean largerThan(Player p)
+- void updateBets(n:amount)
 
 Card
+- int value
