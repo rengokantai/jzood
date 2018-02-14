@@ -22,9 +22,13 @@ Party
 Restaurant
 - List<Table> tables
 - List<Meal> menu  
-  
+- Table findTable()
+
+
 Table
-- table
+- boolean available
+- boolean isAvailable()
+- void markUnavailable()
 
 Order
 - List<Meal> meals  
