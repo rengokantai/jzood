@@ -14,8 +14,24 @@ Cases
 Classes
 Correctness
 
+## 3 Predifined class
+### 1 Restaurant
+Party
+- party  
 
+Restaurant
+- List<Table> tables
+- List<Meal> menu  
+  
+Table
+- table
 
+Order
+- List<Meal> meals  
+  
+  
+Meal
+- sth
 
 ## 5 Design Game
 ### 1 Tic tac toe.
