@@ -22,7 +22,7 @@ Party
 Restaurant
 - List<Table> tables
 - List<Meal> menu  
-- Table findTable()
+- Table findTable()  
 
 
 Table
@@ -31,12 +31,14 @@ Table
 - void markUnavailable()
 
 Order
-- List<Meal> meals  
+- List<Meal> meals   
   
   
 Meal
 - sth
 
+
+(stop at 30min)
 ## 5 Design Game
 ### 1 Tic tac toe.
 Tictactoe: 
